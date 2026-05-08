@@ -35,7 +35,7 @@ def clasificar():
     lineas = [s.split("|") for s in lineas]
     lineas = lineas[0:]
     for l in lineas:
-        print(l[1])
+        print(l[2])
         print(l[3])
         print(uso_api_ollama(l[2]))
         print("--------------------")
