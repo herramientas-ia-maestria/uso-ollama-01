@@ -33,8 +33,8 @@ def clasificar():
     lineas = archivo.readlines()
     lineas = [s.replace("\n", "") for s in lineas]
     lineas = [s.split("|") for s in lineas]
-    lineas = lineas[0:]
-    for l in lineas:
+    lineas = lineas[1:]
+    for l in lineas[0:10]:
         print(l[2])
         print(l[3])
         print(uso_api_ollama(l[2]))

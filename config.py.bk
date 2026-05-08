@@ -1,3 +1,0 @@
-
-API_KEY = "aquí usar su API"
-URL = "https://api.mistral.ai/v1/chat/completions"
